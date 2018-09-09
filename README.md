@@ -24,14 +24,20 @@ This application is created as part of Udacity's Nanodegree Restaurant Review Ap
 
 1. Run an accessibility audit on Chrome dev tools using Lighthouse
 2. Enable a Screen reader such as ChromeVox or NVDA and run through the application
-3. Tab through the page and make sure all the interactive elements get a focus indicator around it and the user can interact with the element using just the keyboard
+3. Tab through the page and
+	1. Make sure all the interactive elements get a focus indicator around them
+	2. The user can interact with the element using just the keyboard
+	3. The tab order generally follows document order
 
 ## How to check if the page is available offline
 1. Open the site on Chrome browser
-2. Once the application is open navigate to the pages you would like to see offline
-3. Open dev tools on Chrome, go to the Network tab and set the network to Offline
+2. Once the application is open navigate to one or more restaurant pages
+3. Open dev tools on Chrome and go to the Network tab and set the network to Offline
 4. Refresh the page
 	1. If the page was accessed before setting the Network offline it should still render
+5. Go to the Application tab on dev tools
+	1. Under Service Workers and active and running service worker should be displayed
+	2. Under Cache > Cache Storage - restaurant-cache-v1 should show all the files that are cached in that version
 
 
 ## Reference
@@ -39,5 +45,5 @@ This application is created as part of Udacity's Nanodegree Restaurant Review Ap
 [Udacity's project resources](https://www.diigo.com/outliner/fjslyn/Udacity-Restaurant-Reviews-App-(project-%235)?key=zqiopam1yz)
 
 ## Dependencies
-[Mapbox](https://www.mapbox.com/install/)
+[Mapbox](https://www.mapbox.com/install/) and 
 [Leaflet js](https://leafletjs.com/)
