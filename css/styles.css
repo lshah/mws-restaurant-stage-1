@@ -73,9 +73,6 @@ nav {
   text-align:center;
   padding-top: 15px;
 }
-nav h1 {
-  /*margin: auto;*/
-}
 nav h1 a {
   color: #fff;
   font-size: 14pt;
@@ -89,7 +86,6 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    /*width: calc(50% - 80px);*/
 }
 
 /* Display list items side by side */
@@ -178,7 +174,6 @@ nav h1 a {
   display: block;
   margin: 25px 0 0 0;
   max-width: 100%;
-  /*min-height: 248px;*/
   min-width: 100%;
   border-radius: 5px;
 }
@@ -216,22 +211,6 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-/*.inside header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}*/
-
-/*#map-section{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  padding: 5%;
-}*/
-
 #map-container .leaflet-control-attribution {
   background-color: lightgray;
   color: black;
@@ -253,13 +232,10 @@ nav h1 a {
 .inside #map {
   background-color: #ccc;
   height: 100%;
-  /*width: 100%;*/
-
 }
 .inside #footer {
   bottom: 0;
   position: relative;
-  /*width: 100%;*/
 }
 #restaurant-name {
   color: #D43900;
